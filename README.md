@@ -42,7 +42,7 @@ The history component visualizes past historical data using interactive charts. 
 
 ### Forecast
 
-The forecast component predicts future income and expense trends based on historical data, aiding users in proactive financial planning.
+The forecast component predicts future income and expense trends based on historical data, aiding users in proactive financial planning. We decided to do the average of the expenses and Incomes then append it to the api response data
 
 ## API
 
