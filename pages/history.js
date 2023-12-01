@@ -37,7 +37,7 @@ const History = () => {
           const ctx = chartRef.current.getContext('2d');
     
           chartRef.current.chart = new Chart(ctx, {
-            type: 'doughnut',
+            type: 'bar',
             data: {
               labels: labels,
               datasets: [
@@ -50,7 +50,7 @@ const History = () => {
                 {
                   label: 'Expenses',
                   data: expensesData,
-                  backgroundColor: ['#FFCE56', '#4CAF50', '#FF6384', '#9966FF', '#FF9F40', '#36A2EB'],
+                  backgroundColor: ['#FFCE56', '#9966FF', '#FF6384', '#4CAF50', '#36A2EB', '#36A2EB'],
                   borderColor: '#f7b731',
                   borderWidth: 1,
                 },
@@ -93,7 +93,7 @@ const History = () => {
           </Sidebar>
           <div className='px-4 py-4'>
             <h1 className='font-bold text-2xl'>Past Historical Data</h1>
-            <canvas ref={chartRef} width='600' height='300'/>
+            <canvas ref={chartRef} width='700' height='500'/>
           </div>
           <div className="overflow-x-auto">
           <h2 className='font-bold text-2xl px-4 mt-4 mb-4'>Table</h2>
