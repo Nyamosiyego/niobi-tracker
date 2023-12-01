@@ -53,10 +53,12 @@ The Niobi Tracker App interacts with a backend API to retrieve and store financi
 
 Follow these steps to install and run the Niobi Tracker App locally:
 
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Run `npm install` to install dependencies.
-4. Run `npm start` to start the development server.
+```
+git clone https://github.com/Nyamosiyego/niobi-tracker.git
+cd niobi-tracker
+bun install
+bun dev
+```
 
 ## Usage
 
