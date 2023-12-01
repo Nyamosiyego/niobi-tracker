@@ -26,6 +26,7 @@ To get started with the Niobi Tracker App, follow these steps:
 
 ```
 git clone https://github.com/Nyamosiyego/niobi-tracker.git
+cd niobi-tracker
 bun install
 bun dev
 ```
