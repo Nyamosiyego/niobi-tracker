@@ -24,13 +24,11 @@ The Niobi Tracker App is designed to empower users with a comprehensive financia
 
 To get started with the Niobi Tracker App, follow these steps:
 
-```
-git clone https://github.com/Nyamosiyego/niobi-tracker.git
-cd niobi-tracker
-bun install
-bun dev
-```
-Or you can navigate to this [Link](https://niobi-tracker.vercel.app/)
+1. Access the [Niobi Tracker App](https://niobi-tracker.vercel.app/) in your browser.
+2. Navigate through the dashboard, history, and forecast components.
+3. View and analyze your financial data.
+
+To install navigate [HERE](#installation)   
 
 ## Components
 
@@ -63,7 +61,7 @@ npm run dev
 
 ## Usage
 
-1. Access the Niobi Tracker App in your browser.
+1. Access the [Niobi Tracker App](https://niobi-tracker.vercel.app/) in your browser.
 2. Navigate through the dashboard, history, and forecast components.
 3. View and analyze your financial data.
 
