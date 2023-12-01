@@ -44,13 +44,13 @@ const History = () => {
                 {
                   label: 'Income',
                   data: incomeData,
-                  backgroundColor: ['#36A2EB', '#4CAF50', '#FFCE56', '#9966FF', '#FF9F40', '#FF6384'],
+                  backgroundColor: ['#36A2EB'],
                   borderWidth: 1,
                 },
                 {
                   label: 'Expenses',
                   data: expensesData,
-                  backgroundColor: ['#FFCE56', '#9966FF', '#FF6384', '#4CAF50', '#36A2EB', '#36A2EB'],
+                  backgroundColor: ['#FFCE56'],
                   borderColor: '#f7b731',
                   borderWidth: 1,
                 },
