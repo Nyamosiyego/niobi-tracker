@@ -24,9 +24,11 @@ The Niobi Tracker App is designed to empower users with a comprehensive financia
 
 To get started with the Niobi Tracker App, follow these steps:
 
-1. Clone the repository.
-2. Install dependencies using `npm install`.
-3. Run the application using `npm start`.
+```
+git clone https://github.com/Nyamosiyego/niobi-tracker.git
+bun install
+bun dev
+```
 
 ## Components
 
