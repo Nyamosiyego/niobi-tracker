@@ -30,6 +30,7 @@ cd niobi-tracker
 bun install
 bun dev
 ```
+Or you can navigate to this [Link](https://niobi-tracker.vercel.app/)
 
 ## Components
 
