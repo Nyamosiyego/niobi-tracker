@@ -1,40 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Niobi Tracker App
+
+The Niobi Tracker App is a financial tracking application that helps users manage their income and expenses. It provides insightful visualizations of historical data and forecasts future trends based on the user's financial history.
+
+## Table of Contents
+
+- [About](#about)
+- [Getting Started](#getting-started)
+- [Components](#components)
+  - [Dashboard](#dashboard)
+  - [History](#history)
+  - [Forecast](#forecast)
+- [API](#api)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## About
+
+The Niobi Tracker App is designed to empower users with a comprehensive financial overview. It allows users to track their income and expenses, view historical data, and receive forecasts for better financial planning.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the Niobi Tracker App, follow these steps:
 
-```bash
+1. Access the [Niobi Tracker App](https://niobi-tracker.vercel.app/) in your browser.
+2. Navigate through the dashboard, history, and forecast components.
+3. View and analyze your financial data.
+
+To install navigate [HERE](#installation)   
+
+## Components
+
+### Dashboard
+
+The main dashboard provides a consolidated view of key financial metrics, including total income and expenses.
+
+### History
+
+The history component visualizes past historical data using interactive charts. Users can analyze trends and patterns in their financial history.
+
+### Forecast
+
+The forecast component predicts future income and expense trends based on historical data, aiding users in proactive financial planning. We decided to do the average of the expenses and Incomes then append it to the api response data
+
+## API
+
+The Niobi Tracker App interacts with a backend API to retrieve and store financial data. The API is responsible for handling requests related to data fetching and storage.
+
+## Installation
+
+Follow these steps to install and run the Niobi Tracker App locally:
+
+```
+git clone https://github.com/Nyamosiyego/niobi-tracker.git
+cd niobi-tracker
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Access the [Niobi Tracker App](https://niobi-tracker.vercel.app/) in your browser.
+2. Navigate through the dashboard, history, and forecast components.
+3. View and analyze your financial data.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Contributing
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Contributions are welcome! If you find any issues or have suggestions for improvements, please follow the guidelines in the [Contributing](CONTRIBUTING.md) document.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](https://opensource.org/license/mit/).
