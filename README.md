@@ -65,10 +65,6 @@ npm run dev
 2. Navigate through the dashboard, history, and forecast components.
 3. View and analyze your financial data.
 
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please follow the guidelines in the [Contributing](CONTRIBUTING.md) document.
-
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/license/mit/).
