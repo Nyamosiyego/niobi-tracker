@@ -55,8 +55,8 @@ const Forecast = () => {
         },
         options: {
           scales: {
-            x: { stacked: false },
-            y: { stacked: false },
+            x: { stacked: true },
+            y: { stacked: true },
           },
         },
       });
