@@ -65,7 +65,7 @@ const Forecast = () => {
     }
   }, [data, chartRef]);
 
-  if(data.length === 0) {
+  if(data?.length === 0) {
     return (
       <div className=''>
         <Navbar fluid className='bg-green-700 h-20 py-0'>
