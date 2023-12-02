@@ -7,6 +7,8 @@ import Link from 'next/link';
 import Logo from '@/public/Logo.png';
 import { Doughnut, Bar } from 'react-chartjs-2';
 import { Chart } from 'chart.js/auto';
+import { PropagateLoader } from 'react-spinners';
+
 
 const Forecast = () => {
   const [data, setData] = useState([]);
@@ -63,6 +65,40 @@ const Forecast = () => {
     }
   }, [data, chartRef]);
 
+  if(data.length === 0) {
+    return (
+      <div className=''>
+        <Navbar fluid className='bg-green-700 h-20 py-0'>
+          <Navbar.Brand as={Link} href='/'>
+            <img src={Logo.src} className='h-20 sm:h-9' alt='Niobi' />
+            <span className='self-center whitespace-nowrap text-xl font-semibold dark:text-white'></span>
+          </Navbar.Brand>
+        </Navbar>
+        <div className='flex'>
+          <Sidebar rounded aria-label='Default sidebar example' className='h-screen '>
+            <Sidebar.Items>
+              <Sidebar.ItemGroup>
+                <Sidebar.Item href='/' icon={HiChartPie}>
+                  Dashboard
+                </Sidebar.Item>
+                <Sidebar.Item href='/history' icon={HiViewBoards}>
+                  History
+                </Sidebar.Item>
+                <Sidebar.Item href='/forecast' icon={HiTable}>
+                  Forecast
+                </Sidebar.Item>
+              </Sidebar.ItemGroup>
+            </Sidebar.Items>
+          </Sidebar>
+          <div className='px-4 py-4'>
+            <h1 className='font-bold text-2xl'>Future Forecasts</h1>
+              <PropagateLoader color="#36d7b7" size={30} />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
     return (
       <div className=''>
         <Navbar fluid className='bg-green-700 h-20 py-0'>
@@ -95,5 +131,6 @@ const Forecast = () => {
       </div>
     );
   };
+
   
   export default Forecast;
