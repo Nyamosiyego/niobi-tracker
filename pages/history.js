@@ -95,7 +95,7 @@ const History = () => {
             </Sidebar>
             <div className='px-4 py-4'>
               <h1 className='font-bold text-2xl'>Past Historical Data</h1>
-                <PropagateLoader color="#36d7b7" size={30} />
+                <PropagateLoader color="#36d7b7" size={31} />
             </div>
           </div>
         </div>
