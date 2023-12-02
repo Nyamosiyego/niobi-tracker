@@ -26,6 +26,8 @@ const Dashboard = () => {
   const totalExpenses = data.reduce((sum, entry) => sum + entry.expenses, 0);
 
   return (
+    <>
+    <title>Niobi</title>
     <div className="">
       <Navbar fluid className="bg-green-700 h-20 py-0">
         <Navbar.Brand as={Link} href="/">
@@ -64,6 +66,7 @@ const Dashboard = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

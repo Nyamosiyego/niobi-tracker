@@ -100,6 +100,8 @@ const Forecast = () => {
   }
 
     return (
+      <>
+      <title>Forecast</title>
       <div className=''>
         <Navbar fluid className='bg-green-700 h-20 py-0'>
           <Navbar.Brand as={Link} href='/'>
@@ -129,6 +131,7 @@ const Forecast = () => {
           </div>
         </div>
       </div>
+      </>
     );
   };
 

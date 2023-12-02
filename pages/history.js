@@ -103,6 +103,8 @@ const History = () => {
     }
   
     return (
+      <>
+      <title>History</title>
       <div className=''>
         <Navbar fluid className='bg-green-700 h-20 py-0'>
           <Navbar.Brand as={Link} href='/'>
@@ -153,6 +155,7 @@ const History = () => {
           </div>
         </div>
       </div>
+      </>
     );
   };
   
