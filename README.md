@@ -55,8 +55,8 @@ Follow these steps to install and run the Niobi Tracker App locally:
 ```
 git clone https://github.com/Nyamosiyego/niobi-tracker.git
 cd niobi-tracker
-npm install
-npm run dev
+bun install
+bun dev
 ```
 
 ## Usage
